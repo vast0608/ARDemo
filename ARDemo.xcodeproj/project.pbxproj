@@ -13,6 +13,8 @@
 		2C133FBB2044EF2400584192 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C133FBA2044EF2400584192 /* Assets.xcassets */; };
 		2C133FBE2044EF2400584192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C133FBC2044EF2400584192 /* LaunchScreen.storyboard */; };
 		2C133FC12044EF2400584192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C133FC02044EF2400584192 /* main.m */; };
+		2CBAB4FE20464B160082036D /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBAB4FD20464B160082036D /* Models.scnassets */; };
+		2CBAB50020464B3A0082036D /* ARSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBAB4FF20464B3A0082036D /* ARSCNViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		2C133FBD2044EF2400584192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C133FBF2044EF2400584192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C133FC02044EF2400584192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C133FC72046416E00584192 /* ARSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSCNViewController.h; sourceTree = "<group>"; };
+		2CBAB4FD20464B160082036D /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		2CBAB4FF20464B3A0082036D /* ARSCNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +67,10 @@
 				2C133FB22044EF2400584192 /* AppDelegate.m */,
 				2C133FB42044EF2400584192 /* ViewController.h */,
 				2C133FB52044EF2400584192 /* ViewController.m */,
+				2C133FC72046416E00584192 /* ARSCNViewController.h */,
+				2CBAB4FF20464B3A0082036D /* ARSCNViewController.m */,
 				2C133FB72044EF2400584192 /* Main.storyboard */,
+				2CBAB4FD20464B160082036D /* Models.scnassets */,
 				2C133FBA2044EF2400584192 /* Assets.xcassets */,
 				2C133FBC2044EF2400584192 /* LaunchScreen.storyboard */,
 				2C133FBF2044EF2400584192 /* Info.plist */,
@@ -130,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C133FBE2044EF2400584192 /* LaunchScreen.storyboard in Resources */,
+				2CBAB4FE20464B160082036D /* Models.scnassets in Resources */,
 				2C133FBB2044EF2400584192 /* Assets.xcassets in Resources */,
 				2C133FB92044EF2400584192 /* Main.storyboard in Resources */,
 			);
@@ -144,6 +153,7 @@
 			files = (
 				2C133FB62044EF2400584192 /* ViewController.m in Sources */,
 				2C133FC12044EF2400584192 /* main.m in Sources */,
+				2CBAB50020464B3A0082036D /* ARSCNViewController.m in Sources */,
 				2C133FB32044EF2400584192 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ARSCNViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)starAR:(id)sender {
+    ARSCNViewController *ar = [ARSCNViewController new];
+    [self presentViewController:ar animated:YES completion:nil];
 }
 
 
